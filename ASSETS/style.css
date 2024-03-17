@@ -20,7 +20,7 @@ h1 {
 }
 .board {
     font-family: 'Mina',sans-serif;
-    color:;
+    
 }
 h2 {
     margin-block: 1em;
@@ -39,33 +39,98 @@ h2 {
     gap: 15px;
 }
 
-.containers .cards {
+.containers .uno {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 
     padding-inline: 5em;
     padding-block: 0.5em;
+    border-radius: 15px;
     background-color: #fff;
     box-shadow: 2px 5px 5px 3px lightgray;
 
     color: #000;
-    align-items: center;
-    justify-content: center;
     text-decoration: none;
     transition: all 5ms;
 }
 
-.containers .cards:hover {
-    transition: 10ms;
-    transform: translateY(-10px)
+.containers .dos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    padding-inline: 5em;
+    padding-block: 0.5em;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 2px 5px 5px 3px lightgray;
+
+    color: #000;
+    text-decoration: none;
+    transition: all 5ms;
 }
 
-.containers .cards .img {
+.containers .tres {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    padding-inline: 5em;
+    padding-block: 0.5em;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 2px 5px 5px 3px lightgray;
+
+    color: #000;
+    text-decoration: none;
+    transition: all 5ms;
+}
+
+
+.containers .uno .img {
     background-color: lightgray;
     width: 80px;
     height: 80px;
     border-radius: 100px;
+}
+.containers .dos .img {
+    background-color: lightgray;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+}
+.containers .tres .img {
+    background-color: lightgray;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+}
+
+/* varidad de colores */
+.containers  .uno:hover {
+    transition: 10ms;
+    transform: translateY(-10px);
+    background-color:#0099ff;
+    color: #fff;
+}
+.containers .dos:hover {
+    transition: 10ms;
+    transform: translateY(-10px);
+    background-color:chartreuse;
+    color: #fff;
+}
+.containers .tres:hover {
+    transition: 10ms;
+    transform: translateY(-10px);
+    background-color:red;
+    color: #fff;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
